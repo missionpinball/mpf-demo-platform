@@ -2,7 +2,14 @@ Demo external MPF platform
 ==========================
 
 This is an example for an external platform in MPF 0.51+.
-Platforms can hook into MPF similar to plugins.
+Platforms can hook into MPF similar to plugins via python entry\_points.
+See setup.py for details.
+
+You can install this platform using:
+
+  pip3 install -e .
+
+After that you can use it as "demo\_platform" in your hardware section.
 
 Support
 -------

@@ -43,6 +43,6 @@ setup(
 
     entry_points='''
     [mpf.platforms]
-    test=mpf_demo_platform.platform:RaspberryPiHardwarePlatform
+    demo_platform=mpf_demo_platform.platform:RaspberryPiHardwarePlatform
     '''
 )
